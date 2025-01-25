@@ -152,9 +152,9 @@ ORDER BY
 - In 2022, sales were fairly evenly distributed across categories (all around $149-151K)
 - 2023 showed more polarization, with Beauty falling behind ($135K) while Clothing and Electronics both moved ahead (both above $161K)
 
->> Examine whether average sale or frequency is contributing to changes in sale.
+Examine whether average sale or frequency is contributing to changes in sale.
 
-Average Sale per Category
+**Average Sale per Category**
 
 ```sql
 SELECT
@@ -180,7 +180,7 @@ ORDER BY
 | 2023 | Clothing   | 438.08       |
 | 2023 | Electronics| 459.92       |
 
-Count per Category
+**Count per Category**
 
 ```sql
 SELECT
@@ -262,10 +262,8 @@ ORDER BY
 - Both genders increased their Clothing purchases
 - Electronics saw strong growth in male customers while female customers slightly decreased
 
-**Top Customers and their Sale Patterns**
+**Top Customers and their Sale Patterns between 2022 vs 2023**
 
-
-Top 20 Customers and their Sale Patterns between 2022 and 2023
 ```sql
 SELECT
 	customer_id,
@@ -339,8 +337,7 @@ ORDER BY
 ;
 ```
 
-2023
-| Month | Total Sale |
+| Month | Total Sale 2023|
 |-------|------------|
 | 1     | 396.50     |
 | 2     | 535.53     |
@@ -355,8 +352,7 @@ ORDER BY
 | 11    | 453.45     |
 | 12    | 490.39     |
 
-2022
-| Month | Total Sale |
+| Month | Total Sale 2022|
 |-------|------------|
 | 1     | 397.11     |
 | 2     | 366.14     |
